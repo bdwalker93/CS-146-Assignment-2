@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ $# -lt 1 ];
+then
+  	echo "One parameter must be passed to run this script!"
+elif [ $# -gt 1 ];
+then
+	echo "Only one paramater may be passed at a time!"
+else
+
+	REGEX='^[a-zA-Z_][a-zA-Z0-9_]*$'
+
+	if echo "$1" | grep -q $REGEX; then
+    		echo "yes"
+	else
+		echo "no"
+	fi	
+fi

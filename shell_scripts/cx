@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ $# -lt 1 ]
+then
+  	echo "The execution permissions cannot be modified if no files are specified!"
+else
+	for file
+	do
+		$(chmod +x $file)
+	done
+
+fi
+

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $# -gt 0 ]
+then
+	echo "No args allowed! Only current directory can be displayed"
+else
+	ls | wc -l
+fi

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $# -gt 0 ]
+then
+	echo "No command line parameters allowed!"
+else
+	ls -lSr | grep -v '^d\|t'	
+fi

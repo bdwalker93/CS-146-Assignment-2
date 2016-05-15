@@ -1,0 +1,45 @@
+#!/bin/bash
+
+./valid a[]
+./valid []
+./valid !!
+./valid 65636
+./valid 12foobar
+./valid foobar
+./valid %^#$^#$^
+./valid adasd asdasdsa
+./valid @
+./valid
+./valid 5
+./valid a
+./valid _foobar
+./valid _
+./valid ___
+./valid _213_
+./valid 9_^
+./valid aaaaaaaaaaaaa^
+./valid ~
+./valid foobarFOOBAR9
+./valid foobar__FOOBAR
+
+#valid a[]
+#valid []
+#valid !!
+#valid 65636
+#valid 12foobar
+#valid foobar
+#valid %^#$^#$^
+#valid adasd asdasdsa
+#valid @
+#valid
+#valid 5
+#valid a
+#valid _foobar
+#valid _
+#valid ___
+#valid _213_
+#valid 9_^
+#valid aaaaaaaaaaaaaa^
+#valid ~
+#valid foobarFOOBAR9
+#valid foobar__FOOBAR

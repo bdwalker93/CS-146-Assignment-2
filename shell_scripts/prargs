@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ct=0 
+
+echo "$ct: \"$(basename $0)\""
+
+for args;
+do
+	let ct=ct+1
+	echo "$ct: \"$args\""
+done

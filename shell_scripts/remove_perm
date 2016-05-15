@@ -1,0 +1,12 @@
+
+
+
+for file in *;
+do
+	if [ $file != cx.sh -a $file != remove_perm.sh ]
+   	then      
+		chmod -x $file
+   	fi
+done
+
+ls -l
